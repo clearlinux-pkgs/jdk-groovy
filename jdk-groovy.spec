@@ -47,7 +47,7 @@ python3 /usr/share/java-utils/maven_depmap.py \
 -n "" \
 --pom-base %{buildroot}/usr/share/maven-poms \
 --jar-base %{buildroot}/usr/share/java \
-%{buildroot}/usr/share/maven-metadata/groovy.xml \
+%{buildroot}/usr/share/maven-metadata/groovy-all.xml \
 %{buildroot}/usr/share/maven-poms/groovy/groovy.pom \
 %{buildroot}/usr/share/java/groovy/groovy.jar \
 
@@ -56,5 +56,6 @@ python3 /usr/share/java-utils/maven_depmap.py \
 /usr/share/java/groovy/groovy-all.jar
 /usr/share/java/groovy/groovy.jar
 /usr/share/maven-metadata/groovy.xml
+/usr/share/maven-metadata/groovy-all.xml
 /usr/share/maven-poms/groovy/groovy-all.pom
 /usr/share/maven-poms/groovy/groovy.pom
