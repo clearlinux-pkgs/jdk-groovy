@@ -48,8 +48,8 @@ python3 /usr/share/java-utils/maven_depmap.py \
 --pom-base %{buildroot}/usr/share/maven-poms \
 --jar-base %{buildroot}/usr/share/java \
 %{buildroot}/usr/share/maven-metadata/groovy-all.xml \
-%{buildroot}/usr/share/maven-poms/groovy/groovy.pom \
-%{buildroot}/usr/share/java/groovy/groovy.jar \
+%{buildroot}/usr/share/maven-poms/groovy/groovy-all.pom \
+%{buildroot}/usr/share/java/groovy/groovy-all.jar \
 
 %files
 %defattr(-,root,root,-)
