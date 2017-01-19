@@ -1,6 +1,6 @@
 Name     : jdk-groovy
 Version  : 1
-Release  : 1
+Release  : 2
 URL      : http://repo1.maven.org/maven2/org/codehaus/groovy/groovy/2.4.5/groovy-2.4.5.jar
 Source0  : http://repo1.maven.org/maven2/org/codehaus/groovy/groovy/2.4.5/groovy-2.4.5.jar
 Source1  : http://repo1.maven.org/maven2/org/codehaus/groovy/groovy-all/2.4.5/groovy-all-2.4.5.jar
